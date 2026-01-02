@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>No Distract Short Clips - Download</title>
+        <link rel="shortcut icon" href="./src/icon.png" type="image/x-icon">
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="./aos/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        
+    </head>
+
+    <body class="min-h-dvh bg-slate-100 flex flex-row items-center justify-center overflow-x-hidden">
+
+        <div class="m-8 p-3 pb-5 max-w-96 shadow-lg rounded-2xl bg-white overflow-hidden">
+            <div>
+                <img style="width: 25%; margin: 10px auto;"  draggable="false" src="./src/icon.png" alt="">
+                <h1 style="font-size: 24px; text-align: center;">No Distract Short Clips</h1>
+            </div>
+            <div class="">
+                <div class="mt-8">
+                    <p class="text-center text-green-600">Download complete!</p>
+                <p class="text-xs text-center pt-4">If an error occurs?<br>Please download again</p>
+                </div>
+               <div class="w-full flex justify-center mt-2">
+                <a href="./NoDistractExtention.zip" onclick="" class="shadow-lg border-4 border-[#ff5757] rounded-2xl px-5 py-2 m-auto hover:bg-[#ff5757] duration-300 hover:text-white">Download NoDistractExtention.zip</a>
+               </div>
+               <a href="../index.html" class="text-center block mt-2 hover:underline">Back to Home</a>
+               <p  class="text-center mt-8 text-sm">© trophoston</p>
+            </div>
+        </div>
+        
+        <script src="./aos/aos.js"></script>
+        <script>
+            AOS.init();
+            var downloadLink = document.createElement('a');
+            downloadLink.href = './NoDistractExtention.zip';
+            downloadLink.download = 'NoDistractExtention.zip';
+            downloadLink.click();
+          </script>
+    </body>
+</html>

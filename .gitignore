@@ -1,0 +1,3 @@
+# Keep signing artifacts out of version control
+extension.pem
+extension.crx

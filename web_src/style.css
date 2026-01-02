@@ -1,0 +1,12 @@
+@font-face {
+    font-family: kanit;
+    src: url("./src/Kanit-Regular.ttf");
+}
+
+body {
+    font-family: kanit;
+}
+
+a{
+    transition: all 0.3s !important;
+}
